@@ -1,4 +1,4 @@
-import { checkEmail } from "./check";
+import { checkEmail } from "./checkEmail";
 
 type Address = {
   street: string;
@@ -7,9 +7,7 @@ type Address = {
 function main() {
   console.log('Hello, world!');
 
-  console.log("Is the email good?");
-  
-  console.log("Maybe: ", checkEmail('anish.geo@gmail.com'));
+  console.log("Is this email valid?: ", checkEmail('george@test.mail'));
 
   const d: Address = { street: '123 Main St' };
   console.log(d);

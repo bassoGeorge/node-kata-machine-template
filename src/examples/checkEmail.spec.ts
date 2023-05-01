@@ -1,4 +1,4 @@
-import { checkEmail } from "./check";
+import { checkEmail } from "./checkEmail";
 
 describe('checkEmail', () => {
   it('should check that the given string is an email type', () => {

@@ -1,4 +1,4 @@
-
+// Thank you copilot for this example
 export function maybe(fn) {
   return function(...args) {
     if (args.some(arg => arg === null || arg === undefined)) {
